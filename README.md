@@ -22,14 +22,16 @@ One way to change the layout quickly is to use the `activate.sh` script.
 $> ./activate.sh
 Please specify which layout to activate:
 
-    graphite
-    enigmak
-    engram
-    dvorak
     colemak
     colemak_dh
-    workman
+    dvorak
+    engram
+    engrammer
+    enigmak
+    graphite
+    mtgap
     qwerty
+    workman
 ```
 
 Once you know which layout you want, go ahead and activate it like so:
@@ -39,10 +41,13 @@ $> ./activate.sh graphite
 graphite layout is now the active layout
 ```
 
-Alternatively, you can add it from your window manager's GUI, but you may have to dig a little to find it.
+Alternatively, you can add it from your window manager's GUI.
 
 #### Gnome
 Open the settings dialog and go to `Keyboard -> Add Input Source -> (vertical dots at the bottom) -> Other`.  The custom layouts can be found in this list.
 
-### Adding new Layouts
-Just drop new a new xkb file into the `linux/xkb` directory and rename it to the name of your layout.  Then re-run the install script.
+#### KDE
+Open the system settings dialog, and go to `Keyboard -> Layouts -> Add` then just search for the layout name you want to add.
+
+### Add your own layouts to the install list
+Just drop new a new xkb file into the `linux/xkb` directory.  Then re-run the install script.

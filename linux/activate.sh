@@ -11,6 +11,7 @@ VARIANT=$1  # user-specified variant to activate
 VARIANTS=$(find $SCRIPT_DIR/xkb -type f ! -name "evdev.xml" -exec basename '{}' \; | xargs)
 BUILTINS=" dvorak colemak colemak_dh workman qwerty"
 VARIANTS+="$BUILTINS "
+VARIANTS=$(echo "$VARIANTS" | xargs -n1 | sort | xargs)
 
 show_usage_and_exit() {
     echo "Please specify which layout to activate:"
