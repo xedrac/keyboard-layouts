@@ -36,7 +36,7 @@ Once you know which layout you want, go ahead and activate it like so:
 ```
 $> ./activate.sh graphite
 
-custom+graphite layout is now the active layout
+graphite layout is now the active layout
 ```
 
 Alternatively, you can add it from your window manager's GUI, but you may have to dig a little to find it.
