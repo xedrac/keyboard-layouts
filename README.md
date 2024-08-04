@@ -13,7 +13,7 @@ cd keyboard-layouts/linux
 <b>NOTE:</b> You'll need to logout before the layouts can be activated
 
 
-### Active
+### Activate
 ```
 $> ./activate.sh
 Please specify which layout to activate:
