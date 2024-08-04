@@ -1,8 +1,7 @@
 # Alternate Keyboard Layout Installer for Linux
 Simple script to install a collection of alternative keyboard layouts on Linux, without the need for sudo/root.
 
-Keyboard layouts on Linux are a bit of a pain to work with, so I created this repo to make it dead simple to install a large collection of alternative keyboard layouts, and switch between them quickly.
-This script works with Wayland, and is untested on X11.  It does not require any third party software.
+This script works with Wayland, and is untested on X11.  No third party software required.
 
 ### Install Layouts
 This will install the layouts to `$XDG_CONFIG_HOME/xkb`, which means they will only be available to the current user, and root access is not needed.
