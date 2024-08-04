@@ -1,22 +1,19 @@
-# Alternate Keyboard Layout Installer for Linux
-Simple script to install a collection of alternative keyboard layouts on Linux, without the need for sudo/root.
+# Custom Keyboard Layout Collection for Linux
+Simple script to install a collection of alternative keyboard layouts on Linux
 
-This script works with Wayland, and is untested on X11.  No third party software required.
+### Requirements
+Wayland
 
-### Install Layouts
-This will install the layouts to `$XDG_CONFIG_HOME/xkb`, which means they will only be available to the current user, and root access is not needed.
+### Install
 ```
 git clone https://github.com/xedrac/keyboard-layouts.git
 cd keyboard-layouts/linux
 ./local-install.sh
 ```
+<b>You'll need to logout before the layouts can be activated</b>
 
-Log out and log back in
 
-
-### Active a Layout
-
-One way to change the layout quickly is to use the `activate.sh` script.
+### Active
 ```
 $> ./activate.sh
 Please specify which layout to activate:
@@ -55,5 +52,5 @@ Open the settings dialog and go to `Keyboard -> Add Input Source -> (vertical do
 #### KDE
 Open the system settings dialog, and go to `Keyboard -> Layouts -> Add` then just search for the layout name you want to add.
 
-### Add your own layouts to the install list
-Just drop new a new xkb file into the `linux/xkb` directory.  Then re-run the install script.
+### Add more layouts to the install list
+Just drop new xkb file(s) into the `linux/xkb` directory.  Then re-run the install script.
