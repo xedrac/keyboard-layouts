@@ -22,15 +22,22 @@ One way to change the layout quickly is to use the `activate.sh` script.
 $> ./activate.sh
 Please specify which layout to activate:
 
+    canary
+    canary_noangle
     colemak
     colemak_dh
     dvorak
     engram
     engrammer
     enigmak
+    gallium
+    gallium_angle
     graphite
     mtgap
     qwerty
+    recurva
+    semimak
+    semimak_angle
     workman
 ```
 
