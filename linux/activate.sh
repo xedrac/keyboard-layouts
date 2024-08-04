@@ -79,6 +79,6 @@ echo ""
 if test -z $VARIANT; then
     echo "$LAYOUT layout should now be active"
 else
-    echo "$LAYOUT+$VARIANT layout should now be active"
+    echo "$VARIANT layout should now be active"
 fi
 echo ""
