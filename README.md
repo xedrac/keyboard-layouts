@@ -4,7 +4,7 @@ Simple script to install a collection of alternative keyboard layouts on Linux, 
 Keyboard layouts on Linux are a bit of a pain to work with, so I created this repo to make it dead simple to install a large collection of alternative keyboard layouts, and switch between them quickly.
 This script will work with both X11 and Wayland, and does not require any third party software.  To add additional layouts, just drop the xkb file in the `linux/xkb` directory and make sure you rename the file to the name of your layout.
 
-# Install
+## Install
 ```
 git clone https://github.com/xedrac/keyboard-layouts.git
 cd keyboard-layouts/linux
@@ -14,7 +14,7 @@ cd keyboard-layouts/linux
 Log out and log back in
 
 
-# Change Active Layout via script
+## Change Active Layout via script
 
 One way to change the layout quickly is to use the `activate.sh` script.
 
@@ -41,7 +41,7 @@ custom+graphite layout is now the active layout
 
 ```
 
-# Change Active Layout via Window Manager
+## Change Active Layout via Window Manager
 
 You can also simply add the layout from your window manager GUI.  But you may have to dig a little to find the custom layouts.
 
