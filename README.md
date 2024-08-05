@@ -18,6 +18,7 @@ cd keyboard-layouts/linux
 $> ./activate.sh
 Please specify which layout to activate:
 
+    aptv3
     canary
     canary_noangle
     colemak
@@ -30,10 +31,12 @@ Please specify which layout to activate:
     gallium_angle
     graphite
     mtgap
+    pinev4
     qwerty
     recurva
     semimak
     semimak_angle
+    sturdy
     workman
 ```
 
