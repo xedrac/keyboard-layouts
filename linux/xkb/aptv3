@@ -1,0 +1,51 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "aptv3" {
+   name[Group1]= "Aptv3";
+
+   key <TLDE>     {[      grave,  asciitilde     ]};
+   key <AE01>     {[      1,  exclam     ]};
+   key <AE02>     {[      2,  at     ]};
+   key <AE03>     {[      3,  numbersign     ]};
+   key <AE04>     {[      4,  dollar     ]};
+   key <AE05>     {[      5,  percent     ]};
+   key <AE06>     {[      6,  asciicircum     ]};
+   key <AE07>     {[      7,  ampersand     ]};
+   key <AE08>     {[      8,  asterisk     ]};
+   key <AE09>     {[      9,  parenleft     ]};
+   key <AE10>     {[      0,  parenright     ]};
+   key <AE11>     {[      minus,  underscore     ]};
+   key <AE12>     {[      equal,  plus     ]};
+
+   key <AD01>     {[      w,  W     ]};
+   key <AD02>     {[      g,  G     ]};
+   key <AD03>     {[      d,  D     ]};
+   key <AD04>     {[      f,  F     ]};
+   key <AD05>     {[      b,  B     ]};
+   key <AD06>     {[      q,  Q     ]};
+   key <AD07>     {[      l,  L     ]};
+   key <AD08>     {[      u,  U     ]};
+   key <AD09>     {[      o,  O     ]};
+   key <AD10>     {[      y,  Y     ]};
+
+   key <AC01>     {[      r,  R     ]};
+   key <AC02>     {[      s,  S     ]};
+   key <AC03>     {[      t,  T     ]};
+   key <AC04>     {[      h,  H     ]};
+   key <AC05>     {[      k,  K     ]};
+   key <AC06>     {[      j,  J     ]};
+   key <AC07>     {[      n,  N     ]};
+   key <AC08>     {[      e,  E     ]};
+   key <AC09>     {[      a,  A     ]};
+   key <AC10>     {[      i,  I     ]};
+
+   key <AB01>     {[      x,  X     ]};
+   key <AB02>     {[      c,  C     ]};
+   key <AB03>     {[      m,  M     ]};
+   key <AB04>     {[      p,  P     ]};
+   key <AB05>     {[      v,  V     ]};
+   key <AB06>     {[      z,  Z     ]};
+   key <AB07>     {[      comma,  less     ]};
+   key <AB08>     {[      period,  greater     ]};
+   key <AB09>     {[      apostrophe,  quotedbl     ]};
+   key <AB10>     {[      slash,  question     ]};
+};
