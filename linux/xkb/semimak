@@ -1,7 +1,7 @@
 // Standard Semimak for ANSI and ISO keyboards
 
 default partial
-xkb_symbols "basic" {
+xkb_symbols "semimak" {
     include "us(basic)"
 
     name[Group1] = "Semimak";

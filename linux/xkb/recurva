@@ -1,7 +1,7 @@
 default partial alphanumeric_keys modifier_keys
-xkb_symbols "basic" {
+xkb_symbols "recurva" {
 
-   name[Group1]= "recurva";
+   name[Group1]= "Recurva";
 
    key <TLDE>     {[      grave,  asciitilde     ]};
    key <AE01>     {[      1,  exclam     ]};

@@ -3,7 +3,7 @@ default partial
 xkb_symbols "basic" {
     include "us(basic)"
 
-    name[Group1] = "Gallium";
+    name[Group1] = "Gallium_Angle";
 
     key <AD01> {[ b, B ]};
     key <AD02> {[ l, L ]};

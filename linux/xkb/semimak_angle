@@ -1,10 +1,10 @@
 // Standard Semimak for ANSI and ISO keyboards
 
 default partial
-xkb_symbols "basic" {
+xkb_symbols "semimak_angle" {
     include "us(basic)"
 
-    name[Group1] = "Semimak";
+    name[Group1] = "Semimak_Angle";
 
     key <AD01> {[ f,          F         ]};
     key <AD02> {[ l,          L         ]};
