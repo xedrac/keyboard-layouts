@@ -10,7 +10,8 @@ git clone https://github.com/xedrac/keyboard-layouts.git
 cd keyboard-layouts/linux
 ./local-install.sh
 ```
-<b>NOTE:</b> You'll need to logout before the layouts can be activated
+<b>*** NOTICE *** </b>
+You *must* logout before the layouts can be activated
 
 
 ### Activate
