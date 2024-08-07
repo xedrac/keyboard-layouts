@@ -1,6 +1,6 @@
 
 default partial
-xkb_symbols "basic" {
+xkb_symbols "gallium" {
     include "us(basic)"
 
     name[Group1] = "Gallium";
