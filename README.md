@@ -30,7 +30,10 @@ Please specify which layout to activate:
     enigmak
     gallium
     gallium_angle
+    gallium_punc
     graphite
+    meteorite
+    meteorite_punc
     mtgap
     pinev4
     qwerty
