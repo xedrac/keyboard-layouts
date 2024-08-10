@@ -1,0 +1,45 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "meteorite_punc" {
+   include "us(basic)"
+   name[Group1]= "Meteorite (alt punctuation)";
+
+   key <AE11> {[      bracketleft,  braceleft ]};
+   key <AE12> {[      bracketright, braceright ]};
+
+   key <AD01> {[      b,  B     ]};
+   key <AD02> {[      l,  L     ]};
+   key <AD03> {[      c,  C     ]};
+   key <AD04> {[      w,  W     ]};
+   key <AD05> {[      v,  V     ]};
+   key <AD06> {[      q,  Q     ]};
+   key <AD07> {[      f,  F     ]};
+   key <AD08> {[      o,  O     ]};
+   key <AD09> {[      u,  U     ]};
+   key <AD10> {[      apostrophe,  quotedbl ]};
+   key <AD11> {[      slash,  question      ]};
+   key <AD12> {[      equal,  plus          ]};
+   key <BKSL> {[      backslash,  pipe      ]};
+
+   key <AC01> {[      n,  N     ]};
+   key <AC02> {[      r,  R     ]};
+   key <AC03> {[      s,  S     ]};
+   key <AC04> {[      t,  T     ]};
+   key <AC05> {[      g,  G     ]};
+   key <AC06> {[      y,  Y     ]};
+   key <AC07> {[      h,  H     ]};
+   key <AC08> {[      e,  E     ]};
+   key <AC09> {[      i,  I     ]};
+   key <AC10> {[      a,  A     ]};
+   key <AC11> {[      minus,  underscore   ]};
+
+   key <AB01> {[      x,  X     ]};
+   key <AB02> {[      z,  Z     ]};
+   key <AB03> {[      k,  K     ]};
+   key <AB04> {[      m,  M     ]};
+   key <AB05> {[      j,  J     ]};
+   key <AB06> {[      p,  P     ]};
+   key <AB07> {[      d,  D     ]};
+   key <AB08> {[      comma,  less         ]};
+   key <AB09> {[      period,  greater     ]};
+   key <AB10> {[      semicolon,  colon    ]};
+};
