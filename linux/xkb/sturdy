@@ -1,6 +1,6 @@
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "sturdy" {
-
+   include "us(basic)"
    name[Group1]= "Sturdy";
 
    key <TLDE>     {[      grave,  asciitilde     ]};

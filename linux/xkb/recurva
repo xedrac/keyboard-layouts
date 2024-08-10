@@ -1,6 +1,6 @@
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "recurva" {
-
+   include "us(basic)"
    name[Group1]= "Recurva";
 
    key <TLDE>     {[      grave,  asciitilde     ]};
