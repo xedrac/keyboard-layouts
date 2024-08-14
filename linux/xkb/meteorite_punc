@@ -16,7 +16,7 @@ xkb_symbols "meteorite_punc" {
    key <AD08> {[      o,  O     ]};
    key <AD09> {[      u,  U     ]};
    key <AD10> {[      apostrophe,  quotedbl ]};
-   key <AD11> {[      slash,  question      ]};
+   key <AD11> {[      semicolon,  colon    ]};
    key <AD12> {[      equal,  plus          ]};
    key <BKSL> {[      backslash,  pipe      ]};
 
@@ -41,5 +41,5 @@ xkb_symbols "meteorite_punc" {
    key <AB07> {[      d,  D     ]};
    key <AB08> {[      comma,  less         ]};
    key <AB09> {[      period,  greater     ]};
-   key <AB10> {[      semicolon,  colon    ]};
+   key <AB10> {[      slash,  question      ]};
 };
