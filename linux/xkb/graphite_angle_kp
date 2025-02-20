@@ -1,8 +1,8 @@
 
 partial alphanumeric_keys
-xkb_symbols "graphite" {
+xkb_symbols "graphite_angle_kp" {
     include "us(basic)"
-    name[Group1]= "Graphite";
+    name[Group1]= "Graphite Angle KP";
 
     key <AE11> { [  bracketleft,    braceleft ] };
     key <AE12> { [ bracketright,   braceright ] };
@@ -32,11 +32,11 @@ xkb_symbols "graphite" {
     key <AC10> { [            i,            I ] };
     key <AC11> { [        comma,     question ] };
 
-    key <AB01> { [            q,            Q ] };
-    key <AB02> { [            x,            X ] };
-    key <AB03> { [            m,            M ] };
-    key <AB04> { [            c,            C ] };
-    key <AB05> { [            v,            V ] };
+    key <AB01> { [            x,            X ] };
+    key <AB02> { [            m,            M ] };
+    key <AB03> { [            c,            C ] };
+    key <AB04> { [            v,            V ] };
+    key <AB05> { [            q,            Q ] };
     key <AB06> { [            k,            K ] };
     key <AB07> { [            p,            P ] };
     key <AB08> { [       period,      greater ] };
